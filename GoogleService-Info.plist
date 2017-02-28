@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>583353017500-0bn8n4226spg98ak9sqk2aunm6ntckjs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.583353017500-0bn8n4226spg98ak9sqk2aunm6ntckjs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCW_bPOQi7smAO9PAl4PDXNw7LXBanDRFM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>583353017500</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.iosgatech.ChatApp</string>
+	<key>PROJECT_ID</key>
+	<string>ios-club-chat-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ios-club-chat-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:583353017500:ios:8ac0aa49ffdfe451</string>
+	<key>DATABASE_URL</key>
+	<string>https://ios-club-chat-app.firebaseio.com</string>
+</dict>
+</plist>

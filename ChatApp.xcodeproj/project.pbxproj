@@ -13,7 +13,7 @@
 		DFBA3A0F1E6233A5008B5F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBA3A0D1E6233A5008B5F18 /* Main.storyboard */; };
 		DFBA3A111E6233A5008B5F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBA3A101E6233A5008B5F18 /* Assets.xcassets */; };
 		DFBA3A141E6233A5008B5F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBA3A121E6233A5008B5F18 /* LaunchScreen.storyboard */; };
-		DFD42D351E63DA60006DA495 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFD42D341E63DA60006DA495 /* GoogleService-Info.plist */; };
+		DFD42D371E660CC7006DA495 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFD42D361E660CC7006DA495 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		DFBA3A101E6233A5008B5F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFBA3A131E6233A5008B5F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFBA3A151E6233A5008B5F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFD42D341E63DA60006DA495 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFD42D361E660CC7006DA495 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,9 @@
 				DFBA3A0B1E6233A5008B5F18 /* ViewController.swift */,
 				DFBA3A0D1E6233A5008B5F18 /* Main.storyboard */,
 				DFBA3A101E6233A5008B5F18 /* Assets.xcassets */,
+				DFD42D361E660CC7006DA495 /* GoogleService-Info.plist */,
 				DFBA3A121E6233A5008B5F18 /* LaunchScreen.storyboard */,
 				DFBA3A151E6233A5008B5F18 /* Info.plist */,
-				DFD42D341E63DA60006DA495 /* GoogleService-Info.plist */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFBA3A141E6233A5008B5F18 /* LaunchScreen.storyboard in Resources */,
-				DFD42D351E63DA60006DA495 /* GoogleService-Info.plist in Resources */,
+				DFD42D371E660CC7006DA495 /* GoogleService-Info.plist in Resources */,
 				DFBA3A111E6233A5008B5F18 /* Assets.xcassets in Resources */,
 				DFBA3A0F1E6233A5008B5F18 /* Main.storyboard in Resources */,
 			);
@@ -345,7 +345,7 @@
 				DEVELOPMENT_TEAM = SUMH54A6Q9;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosgatech.ChatApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosgatech.lol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -360,7 +360,7 @@
 				DEVELOPMENT_TEAM = SUMH54A6Q9;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosgatech.ChatApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosgatech.lol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
