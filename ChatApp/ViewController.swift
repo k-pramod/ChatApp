@@ -58,14 +58,10 @@ class ViewController: UIViewController {
          */
         messagesRef.observe(.childAdded, with: { snapshot in
             
-            //if the snapshot.value exists and can be casted as a [String: Any], set it to nonoptional-type `value` and execute the block inside
-            if let value = snapshot.value as? [String: Any] {
-                
-                //get the text from the dictionary and cast as a string
-                let text = value["text"] as! String
-                
-                //get the date from the dictionary and cast as a TimeInterval (which is a typealias of a Double)
-                let timeInterval = value["date"] as! TimeInterval
+            //if the snapshot.value exists and can be casted as a [String: Any], set it to non-optional-type `value`, then check if you can get the text and date and cast them to non-optional String and TimeInterval. If so, then execute the block inside
+            if let value = snapshot.value as? [String: Any],
+                let text = value["text"] as? String,
+                let timeInterval = value["date"] as? TimeInterval {
                 
                 // convert timeinterval back to Date object
                 let date = Date(timeIntervalSince1970: timeInterval)
@@ -78,6 +74,10 @@ class ViewController: UIViewController {
                 
                 // refresh the tableview UI
                 self.tableView.reloadData()
+                
+                //get bottom index and scroll to the bottom of the screen.
+                let bottomIndex = IndexPath(row: self.messages.count - 1, section: 0)
+                self.tableView.scrollToRow(at: bottomIndex, at: .bottom, animated: true)
             }
         })
         
